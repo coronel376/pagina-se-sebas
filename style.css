@@ -1,0 +1,22 @@
+.bg-pan-right {
+	-webkit-animation: bg-pan-right 8s both;
+	        animation: bg-pan-right 8s both;
+}
+@-webkit-keyframes bg-pan-right {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes bg-pan-right {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  div {margin: 20px}
